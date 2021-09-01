@@ -31,4 +31,6 @@ return [
 	'tagged_model' => '\Conner\Tagging\Model\Tagged',
 
     'tag_group_model' => '\Conner\Tagging\Model\TagGroup',
+
+    'transliterate' => false
 ];
