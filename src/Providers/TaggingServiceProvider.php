@@ -20,7 +20,7 @@ class TaggingServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../../config/tagging.php' => config_path('tagging.php')
+            __DIR__.'/../../config/tagging.php' => config_path('taggable.php')
         ], 'config');
 
         $this->loadMigrationsFrom(realpath(__DIR__.'/../../migrations'));
