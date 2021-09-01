@@ -76,7 +76,7 @@ class TaggingUtility
             'limit' => '255',
             'lowercase' => true,
             'replacements' => [],
-            'transliterate' => config('taggable.transliterate', true),
+            'transliterate' => config('tagging.transliterate', true),
         ];
 
         $char_map = [
